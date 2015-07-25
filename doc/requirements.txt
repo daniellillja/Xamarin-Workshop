@@ -1,0 +1,21 @@
+Build a cross-platform mobile app with Xamarin Forms
+
+* Install software: http://talkingincode.com/2015/07/22/learn-xamarin-forms-with-a-free-workshop/
+
+* Create a mobile app with a main page that shows a scrollable list of products and then let's you tap on one to bring up a page with the details on that product
+    * Products can be hard-coded at first
+
+* Example app:
+http://xamarin.com/prebuilt/my-shoppe
+
+Optional Steps:
+* Advanced Step: Use MVVM pattern with a Page (view) bound to a a ViewModel, where the ViewModel gets the model objects (products) and the View's listview is bound to the ViewModel's products 
+* Advanced Step: Use XAML to define the layout and visual elements of one Page and C# in the code behind to define the layout and visual elements of the other page
+* Advanced Step: Obtain the list of products  from an apiary.io Api
+    --> http://private-a3e7a-workshops.apiary-mock.com/products
+    --> http://private-a3e7a-workshops.apiary-mock.com/products/4
+* Advanced Step: Store the products in a local SQLite db on the mobile app
+* Advanced Step: Add a unit test project to test your code
+* Advanced Step: Add a Windows Phone project
+* Advanced Step: Experiment with different pages: Master-Detail, modal, etc.
+* Advanced Step: Incorporate Azure Mobile App with online/offline sync

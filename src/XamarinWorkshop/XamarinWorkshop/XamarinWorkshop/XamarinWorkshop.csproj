@@ -37,7 +37,11 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="ProductCell.cs" />
+    <Compile Include="ProductDetailPage.cs" />
+    <Compile Include="ProductListPage.cs" />
     <Compile Include="ProductRepository.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
